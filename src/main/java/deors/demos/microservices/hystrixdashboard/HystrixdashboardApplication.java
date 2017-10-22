@@ -1,13 +1,13 @@
-package deors.demos.microservices;
+package deors.demos.microservices.hystrixdashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard
-public class Application {
+public class HystrixdashboardApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(HystrixdashboardApplication.class, args);
 	}
 }
