@@ -1,4 +1,4 @@
-package deors.demos.microservices.hystrixdashboard;
+package deors.demos.microservices.hystrixservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HystrixdashboardApplicationTests {
+public class HystrixserviceApplicationTests {
 
     @Test
     public void contextLoads() {

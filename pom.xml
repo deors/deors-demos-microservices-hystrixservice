@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>deors.demos.microservices</groupId>
-    <artifactId>hystrixdashboard</artifactId>
+    <artifactId>hystrixservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>deors.demos.microservices.hystrixdashboard</name>
-    <description>Demo project for Spring Boot</description>
+    <name>deors.demos.microservices.hystrixservice</name>
+    <description>Circuit breaker dashboard service with Spring Cloud and Netflix Hystrix</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
